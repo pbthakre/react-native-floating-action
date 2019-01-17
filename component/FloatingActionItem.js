@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 
 import { getTouchableComponent } from './utils/touchable';
-
+import scale, { verticalScale } from "../../../src/helper/scale";
 class FloatingActionItem extends Component {
   constructor(props) {
     super(props);
@@ -235,8 +235,9 @@ const styles = StyleSheet.create({
     marginRight: 14
   },
   text: {
-    fontSize: 14,
-    lineHeight: 20
+    fontSize: scale(20),
+    lineHeight: 20,
+    fontFamily: 'Muli-Regular' 
   },
   button: {
     alignItems: 'center',
@@ -261,8 +262,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     resizeMode: 'contain',
-    width: 20,
-    height: 20
+    width: scale(10),
+    height: verticalScale(10)
   }
 });
 
