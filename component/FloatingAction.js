@@ -507,25 +507,25 @@ const styles = StyleSheet.create({
   buttonContainer: {
     overflow: Platform.OS === 'ios' ? 'visible' : 'hidden',
     zIndex: 2,
-    width: ACTION_BUTTON_SIZE,
-    height: ACTION_BUTTON_SIZE,
+    // width: ACTION_BUTTON_SIZE,
+    // height: ACTION_BUTTON_SIZE,
     borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowOpacity: 0.35,
-    shadowOffset: {
-      width: 0,
-      height: 5
-    },
-    shadowColor: '#000000',
-    shadowRadius: 3,
-    elevation: 5,
+    // shadowOpacity: 0.35,
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 5
+    // },
+    // shadowColor: '#000000',
+    // shadowRadius: 3,
+    // elevation: 5,
     position: 'absolute'
   },
   button: {
     zIndex: 3,
-    width: ACTION_BUTTON_SIZE,
-    height: ACTION_BUTTON_SIZE,
+    // width: ACTION_BUTTON_SIZE,
+    // height: ACTION_BUTTON_SIZE,
     borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center'
@@ -537,8 +537,8 @@ const styles = StyleSheet.create({
   },
   buttonTextContainer: {
     borderRadius: 28,
-    width: ACTION_BUTTON_SIZE,
-    height: ACTION_BUTTON_SIZE,
+    // width: ACTION_BUTTON_SIZE,
+    // height: ACTION_BUTTON_SIZE,
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'

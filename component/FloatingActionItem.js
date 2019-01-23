@@ -189,7 +189,7 @@ FloatingActionItem.propTypes = {
 FloatingActionItem.defaultProps = {
   color: '#1253bc',
   distanceToEdge: 30,
-  textElevation: 5,
+  textElevation: 0,
   textColor: '#444444',
   textBackground: '#ffffff',
   margin: 8
@@ -216,15 +216,15 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     paddingHorizontal: 8,
-    shadowOpacity: 0.35,
-    shadowOffset: {
-      width: 0,
-      height: 5
-    },
-    shadowColor: '#000000',
-    shadowRadius: 3,
-    elevation: 5,
-    borderRadius: 4,
+    // shadowOpacity: 0.35,
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 5
+    // },
+    // shadowColor: '#000000',
+    // shadowRadius: 3,
+    // elevation: 5,
+    // borderRadius: 4,
     height: 22,
     marginTop: 8
   },
@@ -243,14 +243,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 20,
-    shadowOpacity: 0.35,
-    shadowOffset: {
-      width: 0,
-      height: 5
-    },
-    shadowColor: '#000000',
-    shadowRadius: 3,
-    elevation: 5,
+    // shadowOpacity: 0.35,
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 5
+    // },
+    // shadowColor: '#000000',
+    // shadowRadius: 3,
+    // elevation: 5,
     width: 40,
     height: 40
   },
